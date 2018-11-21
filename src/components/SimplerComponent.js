@@ -1,6 +1,6 @@
 import React from 'react'
 
 const SimplerComponent = ({ handleClick }) =>
-  <button onClick={ handleClick }>I am just happy</button>
+  <div onClick={ handleClick }>I am just happy</div>
 
 export default SimplerComponent
